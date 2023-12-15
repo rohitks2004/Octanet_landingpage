@@ -1,0 +1,112 @@
+body{
+  background-color: #f5f5f5;
+}
+.todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+  
+  input[type="text"],
+  input[type="date"],
+  select,
+  button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.4s;
+  }
+  
+  button:hover{
+    background-color: #4dff35;
+    color: #fff;
+  }
+  
+  button:hover{
+    background-color: #72b6ff;
+    color: black;
+  }
+ul {
+  list-style: none;
+  padding: 0;
+ 
+}
+
+
+li {
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+label span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+label span:nth-child(n+2) {
+  font-weight: normal;
+  color: #666;
+}
+
+button.com-button {
+  background-color: #2db03c;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+button.com-button:hover {
+  background-color: #51d633;
+}
+button.del-button {
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+button.del-button:hover {
+  background-color: #bb2d3b;
+}
+
+  
+  @media screen and (max-width: 600px) {
+    .todo-container {
+      width: 90%;
+    }
+    input[type="text"],
+    input[type="date"],
+    select,
+     .addbtn {
+      margin: .7rem;
+      padding: .6rem;
+      width: 90%;
+    }
+  }
